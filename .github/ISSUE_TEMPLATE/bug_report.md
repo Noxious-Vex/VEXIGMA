@@ -1,9 +1,10 @@
 ---
 name: Bug report
 about: Report a reproducible problem with VEXIGMA
-title: "[BUG]"
+title: "[BUG] "
 labels: bug
 assignees: ''
+type: Bug
 
 ---
 
