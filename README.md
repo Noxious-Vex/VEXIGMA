@@ -8,6 +8,8 @@ with deterministic rotor configurations, multiple character sets,
 stepping modes, configurable ciphertext formatting, and reproducible
 String Keys.
 
+![VEXIGMA — Advanced Cipher Laboratory](assets/vexigma-screenshot.png)
+
 > **Important:** VEXIGMA is experimental cryptographic software. It is
 > not represented as meeting modern cryptographic security standards and
 > should not be relied upon to protect sensitive, confidential,
