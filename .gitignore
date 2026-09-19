@@ -1,0 +1,100 @@
+# VEXIGMA - Visual Studio / .NET / WPF
+
+# Visual Studio workspace and user-specific files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+# .NET build output
+[Bb]in/
+[Oo]bj/
+artifacts/
+
+# Build and publish directories
+[Dd]ebug/
+[Rr]elease/
+publish/
+Publish/
+
+# Architecture-specific build directories
+x64/
+x86/
+ARM/
+ARM64/
+
+# Test results and coverage
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+coverage/
+coverage.*
+
+# NuGet generated files and local package cache
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# MSBuild generated files
+*.cache
+*.tlog
+*.lastbuildstate
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+*.log
+
+# IDE/editor folders
+.idea/
+.vscode/
+
+# ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+# JetBrains Rider
+*.sln.iml
+
+# Windows generated files
+Thumbs.db
+Thumbs.db:encryptable
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS generated files
+.DS_Store
+
+# Crash dumps
+*.dmp
+*.mdmp
+
+# Local environment/configuration files that may contain secrets
+.env
+.env.*
+!.env.example
+
+# Certificates and signing material
+*.pfx
+*.p12
+*.cer
+*.key
+*.pem
+
+# Do not commit locally published VEXIGMA executables/installers.
+# Official compiled releases should be attached to GitHub Releases instead.
+Vexigma.exe
+VEXIGMA.exe
+*.msi
+*.msix
+*.appx
+*.appxbundle
+
+# Keep source assets such as VexigmaIcon.ico and VexigmaIcon.png tracked.

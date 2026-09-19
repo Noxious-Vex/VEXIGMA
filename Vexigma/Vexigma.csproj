@@ -1,0 +1,51 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+
+    <!-- Application Identity -->
+    <AssemblyName>Vexigma</AssemblyName>
+    <Title>VEXIGMA - Advanced Cipher Laboratory</Title>
+    <Product>VEXIGMA</Product>
+    <Description>VEXIGMA - Advanced Cipher Laboratory</Description>
+    <Company>NoxiousVex</Company>
+    <Authors>NoxiousVex</Authors>
+    <Copyright>© 2026 NoxiousVex</Copyright>
+
+    <!-- Version -->
+    <Version>1.0.0</Version>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+
+    <!-- Application Icon -->
+    <ApplicationIcon>VexigmaIcon.ico</ApplicationIcon>
+
+    <!-- Publishing -->
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>true</SelfContained>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="VexigmaIcon.ico" />
+    <None Remove="VexigmaIcon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="VexigmaIcon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="VexigmaIcon.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>
